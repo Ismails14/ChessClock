@@ -1,0 +1,42 @@
+body { margin: 0;
+    display: flex;
+    height: 100vh;
+    font-family: sans-serif;
+    user-select: none;
+     }
+.playerZone { flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6rem;
+    font-weight: bold; 
+    cursor: pointer;
+    transition:all 0.1s ease;
+ }
+#WhiteZone{ background-color: #d8d2d2;
+    color: #2e2d2d; }
+#blackZone { background-color: #ffffff;
+    color: #f0f0f0; }
+.active { border: 8px solid #4CAF50;
+    box-sizing: border-box;
+     }
+.controls { position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display:flex;
+    gap: 10px;
+ }
+
+ button{
+    padding:15px 30px;
+    font-size: 1.2rem;
+    cursor:pointer;
+    background-color:#333;
+    color:white;
+    border:none;
+    border-radius: 5px;
+ }
+ button:hover{
+    background-color: #555;
+ }
